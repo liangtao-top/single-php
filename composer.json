@@ -1,0 +1,39 @@
+{
+  "name": "liangtao/single",
+  "type": "library",
+  "description": "PHP core class library",
+  "keywords": [
+    "php",
+    "single",
+    "single-php"
+  ],
+  "homepage": "https://github.com/liangtao-top/single-php",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "TaoGe",
+      "email": "liangtao.gz@foxmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/liangtao-top"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "top\\liangtao\\single\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "top\\liangtao\\single\\tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  ]
+}
